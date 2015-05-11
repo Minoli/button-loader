@@ -21,3 +21,5 @@ To stop loading
 ```sh
 $('.my-btn').buttonLoader('stop');
 ```
+#### Example
+http://jsfiddle.net/zcX4h/1154/
