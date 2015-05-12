@@ -13,7 +13,7 @@
             //disable buttons when loading state
             $('.has-spinner').attr("disabled", "disabled");
             $(self).attr('data-btn-text', $(self).text());
-            //binding spinner element to button and change button text
+            //binding spinner element to button and changing button text
             $(self).html('<span class="spinner"><i class="fa fa-spinner fa-spin"></i></span>Loading');
             $(self).addClass('active');
         }
