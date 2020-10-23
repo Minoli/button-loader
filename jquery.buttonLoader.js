@@ -12,7 +12,7 @@
             }
             $('.has-spinner').attr("disabled", true);
             $(self).attr('data-btn-text', $(self).text());
-            var text = 'Loading';
+            var text = '';
             console.log($(self).attr('data-load-text'));
             if($(self).attr('data-load-text') != undefined && $(self).attr('data-load-text') != ""){
                 var text = $(self).attr('data-load-text');
